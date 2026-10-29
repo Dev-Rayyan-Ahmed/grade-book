@@ -13,5 +13,12 @@ def main():
             break
         else:
             print("Invalid option.")
+
+def add_student():
+    name = input("Student name: ")
+    marks = input("Marks separated by spaces: ")
+    students[name] = [int(m) for m in marks.split()]
+    print(f"Added {name}.")
+
 if __name__ == "__main__":
     main()
