@@ -27,5 +27,3 @@ def add_student():
 
 if __name__ == "__main__":
     main()
-
-students["Ali"] =[78, 91, 66]
